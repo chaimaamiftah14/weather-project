@@ -9,6 +9,7 @@ Features
 - Min/Max Temperature: Displays the minimum and maximum temperature for the day.
 - Additional Weather Info: Includes real feel temperature, humidity, wind speed, and pressure.
 
+
 Motivation
 I was inspired to create this project to enhance my skills in front-end development and to  build a practical application that can be useful for everyday life. Weather is something we all experience daily, and having accurate and real-time information is crucial. This project is also a part of my portfolio for Holberton School, demonstrating my ability to build interactive and dynamic web applications.
 
