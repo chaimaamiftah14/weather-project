@@ -6,14 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!-- Intro Section -->
+    <section id="intro">
+        <div class="cover-image">
+            <img src="landing-page/cover-image.jpg" alt="Weather Dashboard Cover Image">
+        </div>
+        <h1>Weather Dashboard</h1>
+        <p>Your go-to app for real-time weather updates and forecasts.</p>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <a href="[Your Deployed Project URL]" class="deploy-button">Try the App</a>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="landing-page/feature1-image.jpg" alt="Real-Time Weather Updates">
+            <h3>Real-Time Weather Updates</h3>
+            <p>Get up-to-date weather information for any location.</p>
+        </div>
+        <div class="feature">
+            <img src="landing-page/feature2-image.jpg" alt="7-Day Forecast">
+            <h3>7-Day Forecast</h3>
+            <p>Plan ahead with a comprehensive 7-day weather forecast.</p>
+        </div>
+        <div class="feature">
+            <img src="landing-page/feature3-image.jpg" alt="Interactive Weather Maps">
+            <h3>Interactive Weather Maps</h3>
+            <p>Explore weather patterns with interactive maps.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About This Project</h2>
+        <p>This project was inspired by my personal need to have accurate and reliable weather information at my fingertips. As an avid hiker and outdoor enthusiast, having access to real-time weather updates is crucial for planning my trips. This dashboard is designed to be user-friendly and provide detailed weather data to help others like me stay informed.</p>
+        <p>This is a Portfolio Project for Holberton School. Check out the links below to connect with me and see the project repository:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/Chaïmaâ Miftah">LinkedIn</a></li>
+            <li><a href="https://github.com/chaimaamiftah14">GitHub</a></li>
+            <li><a href="https://twitter.com/chemoma miftah">Twitter</a></li>
+            <li><a href="https://github.com/chaimaamiftah14/weather-project">GitHub Repository</a></li>
+        </ul>
+    </section>
+
+    <!-- Optional Advanced Section -->
+    <section id="advanced">
+        <h2>Meet the Team and Our Journey</h2>
+        <video controls>
+            <source src="landing-page/your-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Original Dashboard Code -->
     <div class="dashboard-container">
         <div class="dashboard-header">
             <form class="dashboard-search">
                 <input type="text" placeholder="Search for a city..." class="dashboard-search-input">
                 <i class="fa-solid fa-magnifying-glass"></i>
-            </form> 
+            </form>
             <div class="dashboard-units">
                 <span class="unit-celsius">&#176C</span>
                 <span class="unit-fahrenheit">&#176F</span>
@@ -62,7 +123,7 @@
             </div>
         </div>
     </div>
-    <script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+
     <script src="app.js"></script>
 </body>
 </html>
