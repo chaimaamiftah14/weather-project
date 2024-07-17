@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <form class="dashboard-search">
+                <input type="text" placeholder="Search for a city..." class="dashboard-search-input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form> 
+            <div class="dashboard-units">
+                <span class="unit-celsius">&#176C</span>
+                <span class="unit-fahrenheit">&#176F</span>
+            </div>
+        </div>
+        <div class="dashboard-body">
+            <h1 class="city-name"></h1>
+            <div class="current-datetime"></div>
+            <div class="weather-forecast"></div>
+            <div class="weather-icon"></div>
+            <p class="temperature"></p>
+            <div class="temperature-range">
+                <p>Min: 12&#176</p>
+                <p>Max: 16&#176</p>
+            </div>
+        </div>
+
+        <div class="additional-info">
+            <div class="info-card">
+                <i class="fa-solid fa-temperature-full"></i>
+                <div>
+                    <p>Real Feel</p>
+                    <p class="real-feel">18&#176</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Humidity</p>
+                    <p class="humidity">18&#176</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Wind</p>
+                    <p class="wind-speed">18&#176</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <div>
+                    <p>Pressure</p>
+                    <p class="pressure">18&#176</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
